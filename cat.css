@@ -1,0 +1,68 @@
+#wrapper{
+	overflow: hidden;
+	margin-top: -40px ;
+	width : 100%;
+}
+
+body{
+	margin: 0;
+	
+}
+
+/*------- H e a d d e r --------*/
+#header{
+	width : 100%;
+	height : 100px;
+	font-family : cooper black;
+	margin : 0;
+	padding : 0;
+	font-size : 30px;
+	text-align : center;
+	background-color : rgb(246,246,246);
+
+	
+}
+
+/*------- N E V B A R -----------*/
+#nev{
+	position: sticky;
+	top: 0;
+	width  : auto;
+	height : 30px;
+	margin : 0;
+	padding: 0;
+	background-color : rgb(37,33,24);
+	background-size : cover;
+}
+
+#nev ul{
+	margin: 0;
+}
+
+#nev li{
+	color : white;
+	display : inline;
+	margin : 5px auto;
+	padding-right : 20px;
+	float : right;
+}
+
+#atxt{
+	text-decoration : none;
+	color : white;
+}
+
+/*------- C o n t a i n ---------*/
+#contain{
+	
+	background-attachment:fixed;
+	width : auto;
+	height : 1070px;
+	padding :10px;
+	background-position : relative;
+	background-repeat : no-repeat;
+	background-size : cover;
+	background-color :rgb(246,246,246);
+	overflow : scroll;
+
+}
